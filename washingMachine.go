@@ -8,7 +8,7 @@ type washingmachine struct {
 	model string
 }
 
-// func to get the brand and model, returning a string
+// method to get the brand and model, returning a string
 func (wm washingmachine) getModel() string {
 	return fmt.Sprintf("Your washingmachine is from %s and the model is %s", wm.brand, wm.model)
 }
